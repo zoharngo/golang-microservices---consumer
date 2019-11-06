@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/federicoleon/golang-microservices/src/api/app"
+	"github.com/zoharngo/golang-microservices/src/api/app"
 )
 
 func main() {

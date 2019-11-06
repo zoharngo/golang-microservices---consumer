@@ -3,8 +3,8 @@ package github_provider
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/federicoleon/golang-microservices/src/api/domain/github"
-	"github.com/federicoleon/golang-microservices/src/api/clients/restclient"
+	"github.com/zoharngo/golang-microservices/src/api/domain/github"
+	"github.com/zoharngo/golang-microservices/src/api/clients/restclient"
 	"net/http"
 	"errors"
 	"os"

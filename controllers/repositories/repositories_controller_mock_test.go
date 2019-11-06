@@ -6,11 +6,11 @@ import (
 	"strings"
 	"net/http/httptest"
 	"github.com/stretchr/testify/assert"
-	"github.com/federicoleon/golang-microservices/src/api/utils/errors"
-	"github.com/federicoleon/golang-microservices/src/api/utils/test_utils"
-	"github.com/federicoleon/golang-microservices/src/api/domain/repositories"
+	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
+	"github.com/zoharngo/golang-microservices/src/api/utils/test_utils"
+	"github.com/zoharngo/golang-microservices/src/api/domain/repositories"
 	"encoding/json"
-	"github.com/federicoleon/golang-microservices/src/api/services"
+	"github.com/zoharngo/golang-microservices/src/api/services"
 )
 
 var (

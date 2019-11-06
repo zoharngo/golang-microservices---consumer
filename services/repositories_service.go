@@ -1,14 +1,14 @@
 package services
 
 import (
-	"github.com/federicoleon/golang-microservices/src/api/utils/errors"
-	"github.com/federicoleon/golang-microservices/src/api/domain/repositories"
-	"github.com/federicoleon/golang-microservices/src/api/domain/github"
+	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
+	"github.com/zoharngo/golang-microservices/src/api/domain/repositories"
+	"github.com/zoharngo/golang-microservices/src/api/domain/github"
 	"sync"
 	"net/http"
-	"github.com/federicoleon/golang-microservices/src/api/log/option_b"
-	"github.com/federicoleon/golang-microservices/src/api/providers/github_provider"
-	"github.com/federicoleon/golang-microservices/src/api/config"
+	"github.com/zoharngo/golang-microservices/src/api/log/option_b"
+	"github.com/zoharngo/golang-microservices/src/api/providers/github_provider"
+	"github.com/zoharngo/golang-microservices/src/api/config"
 )
 
 type reposService struct{}

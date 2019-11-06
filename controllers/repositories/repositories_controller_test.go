@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"strings"
 	"github.com/stretchr/testify/assert"
-	"github.com/federicoleon/golang-microservices/src/api/utils/errors"
-	"github.com/federicoleon/golang-microservices/src/api/clients/restclient"
+	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
+	"github.com/zoharngo/golang-microservices/src/api/clients/restclient"
 	"io/ioutil"
 	"os"
-	"github.com/federicoleon/golang-microservices/src/api/domain/repositories"
+	"github.com/zoharngo/golang-microservices/src/api/domain/repositories"
 	"encoding/json"
-	"github.com/federicoleon/golang-microservices/src/api/utils/test_utils"
+	"github.com/zoharngo/golang-microservices/src/api/utils/test_utils"
 )
 
 func TestMain(m *testing.M) {

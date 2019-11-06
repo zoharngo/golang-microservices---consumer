@@ -2,7 +2,7 @@ package option_a
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/federicoleon/golang-microservices/src/api/config"
+	"github.com/zoharngo/golang-microservices/src/api/config"
 	"os"
 	"strings"
 	"fmt"
