@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
+	"github.com/zoharngo/golang-microservices---consumer/utils/errors"
 	"strings"
 )
 

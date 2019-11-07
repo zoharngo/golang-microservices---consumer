@@ -2,9 +2,9 @@ package repositories
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/zoharngo/golang-microservices/src/api/domain/repositories"
-	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
-	"github.com/zoharngo/golang-microservices/src/api/services"
+	"github.com/zoharngo/golang-microservices---consumer/domain/repositories"
+	"github.com/zoharngo/golang-microservices---consumer/utils/errors"
+	"github.com/zoharngo/golang-microservices---consumer/services"
 	"net/http"
 )
 

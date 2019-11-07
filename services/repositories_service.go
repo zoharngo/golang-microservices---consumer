@@ -1,14 +1,14 @@
 package services
 
 import (
-	"github.com/zoharngo/golang-microservices/src/api/utils/errors"
-	"github.com/zoharngo/golang-microservices/src/api/domain/repositories"
-	"github.com/zoharngo/golang-microservices/src/api/domain/github"
+	"github.com/zoharngo/golang-microservices---consumer/utils/errors"
+	"github.com/zoharngo/golang-microservices---consumer/domain/repositories"
+	"github.com/zoharngo/golang-microservices---consumer/domain/github"
 	"sync"
 	"net/http"
-	"github.com/zoharngo/golang-microservices/src/api/log/option_b"
-	"github.com/zoharngo/golang-microservices/src/api/providers/github_provider"
-	"github.com/zoharngo/golang-microservices/src/api/config"
+	"github.com/zoharngo/golang-microservices---consumer/log/option_b"
+	"github.com/zoharngo/golang-microservices---consumer/providers/github_provider"
+	"github.com/zoharngo/golang-microservices---consumer/config"
 )
 
 type reposService struct{}

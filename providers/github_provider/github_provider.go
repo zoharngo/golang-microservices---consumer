@@ -1,9 +1,9 @@
 package github_provider
 
 import (
-	"github.com/zoharngo/golang-microservices/src/api/domain/github"
+	"github.com/zoharngo/golang-microservices---consumer/domain/github"
 	"fmt"
-	"github.com/zoharngo/golang-microservices/src/api/clients/restclient"
+	"github.com/zoharngo/golang-microservices---consumer/clients/restclient"
 	"net/http"
 	"log"
 	"encoding/json"
